@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: beige;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.main-header {
+    background-image: url();
+    background-size: cover;
+}
+.nav a:hover{
+    background-color:rgba(154, 196, 92, 0.927);
+}
