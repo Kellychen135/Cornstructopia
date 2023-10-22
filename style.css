@@ -54,6 +54,9 @@ header ul li a.active {
 }
 body .set {
     position: absolute;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
     width: 100%;
     height: 100%;
     top: 0;
@@ -128,7 +131,7 @@ body .set div:nth-child(8) {
         transform: translateX(-20px) rotate(225deg);
     }
 }
-/* img {
+img {
     width: 100px;
-    height: 100%;
-} */
+    height: 50%;
+}
