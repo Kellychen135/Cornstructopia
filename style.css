@@ -1,16 +1,54 @@
-body{
+* {
     margin: 0;
-    background-color: beige;
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: auto;
+    padding: 0;
+    box-sizing: border-box;  
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(orange,beige);
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .name {
+    color: rgb(91, 91, 224);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
-
-.main-header {
-    background-image: url();
-    background-size: cover;
+header ul li {
+    list-style: none;
+    margin-left: 20px;
 }
-.nav a:hover{
-    background-color:rgba(154, 196, 92, 0.927);
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgb(91, 91, 224);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active {
+    background: rgb(91, 91, 224);
+    color: orange;
+}
+.sec {
+    position: relative;
+    padding: 100px;
+    align-items: center;
 }
